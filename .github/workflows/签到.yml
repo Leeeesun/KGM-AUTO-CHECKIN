@@ -1,8 +1,8 @@
 name: 签到
 on:
-  schedule:
-    - cron: "12 3 * * *"
-      timezone: "Asia/Shanghai"
+  #schedule:
+    #- cron: "12 3 * * *"
+    #  timezone: "Asia/Shanghai"
   workflow_dispatch:
 
 permissions:
